@@ -2,20 +2,20 @@
 
 Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world.  Airbnb became one of a kind service that used by the whole world. Data analysis on millions of listings provided through Airbnb is a crucial factor for the company. These millions of listings generate a lot of data - data that can be analyzed and used for security, business decisions, understanding of customers' and providers' (hosts) behavior and performance on the platform, guiding marketing initiatives, implementation of innovative additional services and much more.
 
-#
-This dataset has around 49,000 observations in it with 16 columns and it is a mix between categorical and numeric values.
 
 
-Explore and analyze the data to discover key understandings (not limited to these) such as :
+# Problem Statement
+1.What can we learn about different hosts and areas?
 
+2.What is the count of properties of each room type?
 
-What can we learn about different hosts and areas?
+3.Which hosts are the busiest and why?
 
-What can we learn from predictions? (ex: locations, prices, reviews, etc)
+4.What is the average price for each neighborhood group?
 
-Which hosts are the busiest and why?
+5.What can we learn from predictions? (ex: locations, prices, reviews, etc)
 
-Is there any noticeable difference of traffic among different areas and what could be the reason for it?
+6.Is there any noticeable difference of traffic among different areas and what could be the reason for it?
 
 # About your Dataset
 
@@ -53,3 +53,13 @@ reviews_per_month(float64) - It indicates the number of reviews given in a parti
 calculated_host_listings_count(int64)- It shows the count of listings per host.
 
 availability_365(int64) - It indicates for how many days the Airbnb is available in a year.
+
+# Solution to Business Objective
+
+As per the current scenario, people usually prefer to go for an entire home because they prefer to put their privacy . So we should try investing more in renting big properties.
+
+Also, we can say that for most of the neighborhood group, private and shared room types have somewhat similar average prices so it may be the case that people would prefer to stay in the private room category than the shared one so we should either try reducing the price of the shared room or increase the price of private room types.
+
+We also got to know that some neighborhood groups were dense with properties whereas some had few properties i.e. were scattered which in turn led to a limit of choices for people to make before booking in a particular area, so we should also focus on including more properties there.
+
+Through this type of analysis, we can help ourselves to make the decision wisely which is helpful to us in terms of quality and user-friendly experience.

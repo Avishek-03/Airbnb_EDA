@@ -19,6 +19,7 @@ Is there any noticeable difference of traffic among different areas and what cou
 
 # About your Dataset
 
+
 ID(int64) - ID of the person who booked the Airbnb.
 
 Name(object) - Name of the person who booked accommodation.

@@ -1,8 +1,10 @@
 # Airbnb_Project Summary
 
-Airbnb is an American company that operate an online market place for lodging,primarily homestays for vacation rental and tourism activities.
+Airbnb is an American company that operate an online marketplace that connects people who want to rent out their properties with travelers seeking accommodations. Founded in 2008, Airbnb allows individuals to list their homes, apartments, or even just a spare room for short-term rentals. Travelers can then search for these listings based on location, price, amenities, and other criteria. It has expanded rapidly over the years and now operates in thousands of cities and countries worldwide, offering a wide range of lodging options to suit different preferences and budgets.
 
-Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world.  Airbnb became one of a kind service that used by the whole world. Data analysis on millions of listings provided through Airbnb is a crucial factor for the company. These millions of listings generate a lot of data - data that can be analyzed and used for security, business decisions, understanding of customers' and providers' (hosts) behavior and performance on the platform, guiding marketing initiatives, implementation of innovative additional services and much more.
+Data analysis on millions of listings provided through Airbnb is a crucial factor for the company. These millions of listings generate a lot of data, that can be analyzed and used for security, business decisions, understanding of customers and hosts behavior and performance on the platform, guiding marketing initiatives, implementation of innovative additional services and much more.
+
+This dataset has total around 49,000 observation rows with 16 columns and it is a mix between numeric and categorical values.
 
 
 
@@ -15,12 +17,11 @@ Since 2008, guests and hosts have used Airbnb to expand on traveling possibiliti
 
 4.What is the average price for each neighborhood group?
 
-5.What can we learn from predictions? (ex: locations, prices, reviews, etc)
+5.what is the correlation between different variable?
 
-6.Is there any noticeable difference of traffic among different areas and what could be the reason for it?
+6.What can we learn from predictions? (ex: locations, prices, reviews, etc)
 
 # About your Dataset
-
 
 ID(int64) - ID of the person who booked the Airbnb.
 
@@ -68,4 +69,6 @@ Through this type of analysis, we can help ourselves to make the decision wisely
 
 # Conclusion
 
-Throughout our analysis, we have gained a deeper understanding of various aspects of Airbnb, including pricing dynamics, geographical distribution, property types, and number of reviews.One of the key takeaways from our analysis is the importance of location in determining Airbnb rental prices. We found that certain neighborhoods and cities command higher prices, reflecting the influence of demand, local amenities, and tourist attractions. Hosts can use this information to optimize their pricing strategies, while travelers can make more informed choices based on their budget and preferences.In conclusion, our Airbnb EDA project has illuminated the complex landscape of Airbnb rentals, providing valuable insights for both hosts and travelers. By harnessing the power of Python and data analysis, we have unlocked the potential to make more informed decisions, ultimately enhancing the Airbnb experience for all parties involved. This project serves as a testament to the importance of data-driven decision-making in the modern world of hospitality and travel.
+Throughout our analysis, we have gained a deeper understanding of various aspects of Airbnb, including pricing dynamics, geographical distribution, property types, and number of reviews.One of the key takeaways from our analysis is the importance of location in determining Airbnb rental prices. We found that certain neighborhoods and cities command higher prices, reflecting the influence of demand, local amenities, and tourist attractions. Hosts can use this information to optimize their pricing strategies, while travelers can make more informed choices based on their budget and preferences.
+
+In conclusion, our Airbnb EDA project has illuminated the complex landscape of Airbnb rentals, providing valuable insights for both hosts and travelers. By harnessing the power of Python and data analysis, we have unlocked the potential to make more informed decisions, ultimately enhancing the Airbnb experience for all parties involved. This project serves as a testament to the importance of data-driven decision-making in the modern world of hospitality and travel.
